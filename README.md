@@ -1,4 +1,18 @@
-# checkmytemp
+<br>
+<p align="center">
+check-my-temperature
+</p>
+<p align="center">
+crafted with <span style="color: #8b0000;">&hearts;</span> by Himanshu Singh
+</p>
+
+## Built With
+
+This website is built with <span style="color: #8b0000;">&hearts;</span> on [Flutter](https://flutter.dev/)
+## Installation 🔧
+
+
+# Summary
 
 A Raspberry Pi-firebase-flutter project that collects data from a temperature sensor (DS18B20), PIR sensor connected to the raspbeery pi via GPIO pins and posts it on the cloud firestore from time to time via python and firebase admin SDK, the client app (built using flutter) then retrieves this data and shows it to the end user in real time. This enables the client to view info such as the temperature in his room, host ip in real time along with notifications on motion detection
 
