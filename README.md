@@ -4,5 +4,5 @@ A Raspberry Pi-firebase-flutter project that collects data from a temperature se
 
 This repository is the client side of the project. It is built on flutter and shows the IP address of the host (raspberry pi) along with the room temperature. The app also notifies the client if any movement is detected in his room.
 
-![Screenshot_2021-07-28-10-07-02-683_com example checkmytemp](https://user-images.githubusercontent.com/61236944/127273414-1189dedd-bd8f-4b20-aa59-0acfed3acccc.jpg)![Screenshot_2021-07-28-10-10-47-445_is shortcut](https://user-images.githubusercontent.com/61236944/127273423-0d62266c-d6fa-46fe-a9d9-812f94547b33.jpg)
-![Screenshot_2021-07-28-10-13-40-274_com example checkmytemp](https://user-images.githubusercontent.com/61236944/127273425-885f8852-d5e2-4fbb-bf1c-ea82652de13e.jpg)
+![download](https://user-images.githubusercontent.com/61236944/127274118-cabb008e-4f29-40a3-9ec2-18dcbf1c1bf7.png)
+
