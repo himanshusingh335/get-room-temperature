@@ -1,3 +1,4 @@
+import 'package:checkmytemp/notificationService.dart';
 import 'package:flutter/material.dart';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -7,10 +8,13 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    getToken();
+    registerNotification(context);
+
     return StreamBuilder(
       stream: FirebaseFirestore.instance
-          .collection('room1')
-          .doc('stats')
+          .collection('rooms')
+          .doc('my-room')
           .snapshots(),
       builder: (context, AsyncSnapshot<DocumentSnapshot> snapshot) {
         if (snapshot.hasData) {
@@ -26,6 +30,9 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
+                  Text(
+                    snapshot.data!.get("ip"),
+                  ),
                   Text(
                     'Your room temperature',
                   ),
