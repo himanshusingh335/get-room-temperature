@@ -1,17 +1,17 @@
 <br>
-<p align="center">
-check-my-temperature
+<p align="left">
+CHECK-MY-TEMPERTATURE
 </p>
-<p align="center">
+<p align="left">
 crafted with <span style="color: #8b0000;">&hearts;</span> by Himanshu Singh
 </p>
 
 ## Built With
 
-This website is built with <span style="color: #8b0000;">&hearts;</span> on [Flutter](https://flutter.dev/)
+This app is built with <span style="color: #8b0000;">&hearts;</span> on [Flutter](https://flutter.dev/)
 ## Installation 🔧
 
-This project requires installation of flutter. The project uses firebase as a dependancy.
+This project requires installation of [Flutter](https://flutter.dev/). The project uses firebase as a dependancy.
 **Step 1:**
 
 Download or clone this repo by using the link below:
