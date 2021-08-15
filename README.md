@@ -1,7 +1,4 @@
-<br>
-<p align="left">
-CHECK-MY-TEMPERTATURE
-</p>
+# CHECK MY TEMPERTATURE (Home Weather Station)
 <p align="left">
 crafted with <span style="color: #8b0000;">&hearts;</span> by Himanshu Singh
 </p>
